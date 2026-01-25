@@ -1,0 +1,76 @@
+{
+  "workbench.colorTheme": "Rosé Pine",
+  "editor.fontSize": 18,
+  "editor.lineNumbers": "relative",
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "explorer.compactFolders": true,
+  "editor.rulers": [ 80 ],
+  "editor.fontFamily": "JetBrains Mono",
+
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+
+  "terminal.integrated.fontSize": 14,
+
+  "vim.leader": " ",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [ "<C-c>" ],
+      "after": [ "<Esc>" ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [ "<leader>", "y" ],
+      "after": [ "\"", "+", "y" ]
+    },
+    {
+      "before": [ "<leader>", "d" ],
+      "after": [ "\"", "_", "d" ]
+    },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [ "<leader>", "y" ],
+      "after": [ "\"", "+", "y" ]
+    },
+    {
+      "before": [ "<leader>", "d" ],
+      "after": [ "\"", "_", "d" ]
+    },
+    {
+      "before": [ "<leader>", "p", "v" ],
+      "commands": [ ":Ex" ]
+    },
+    {
+      "before": [ "<C-d>" ],
+      "after": [ "<C-d>", "z", "z" ]
+    },
+    {
+      "before": [ "<C-u>" ],
+      "after": [ "<C-u>", "z", "z" ]
+    },
+    {
+      "before": [ "<leader>", "f" ],
+      "commands": [ "editor.action.formatDocument" ]
+    },
+  ],
+  "vim.handleKeys": {
+    "<C-f>": false,
+    "<C-h>": false,
+    "<C-p>": false,
+    "<C-j>": false,
+    "<C-b>": false,
+  },
+
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false,
+
+  "editor.showFoldingControls": "never",
+  "editor.glyphMargin": false,
+  "window.customTitleBarVisibility": "windowed",
+  "files.autoSave": "afterDelay",
+  "workbench.sideBar.location": "right",
+  "chat.tools.terminal.outputLocation": "chat",
+}
