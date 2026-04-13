@@ -1,0 +1,24 @@
+[user]
+	email = xianranara0000@gmail.com
+	name = MouseMuncher 
+
+[credential]
+    helper = store
+
+[alias]
+    st = status
+    ad = add
+    br = branch
+    ci = commit
+    co = checkout
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	purge = !git branch -D
+
+[fetch]
+    prune = true
+
+[pull]
+    rebase = true
+
+[merge]
+    ff = false
