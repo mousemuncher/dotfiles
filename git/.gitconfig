@@ -22,3 +22,5 @@
 
 [merge]
     ff = false
+[core]
+	editor = nvim
